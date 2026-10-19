@@ -7,7 +7,7 @@ jobs:
       - name: "welcome"
         run: echo "welcome to the sagar era"
   Bye-job:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: "Bye Bye"
         run: echo "Bye Bye from sagar era"

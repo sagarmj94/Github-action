@@ -1,0 +1,12 @@
+{
+  "name": "github-actions-html-learning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple static HTML project for learning GitHub Actions CI/CD",
+  "scripts": {
+    "format": "npx --yes prettier@3.6.2 --write index.html package.json .prettierrc.json scripts/build.js tests/index.test.js .github/workflows/ci-cd.yml",
+    "format:check": "npx --yes prettier@3.6.2 --check index.html package.json .prettierrc.json scripts/build.js tests/index.test.js .github/workflows/ci-cd.yml",
+    "test": "node --test",
+    "build": "node scripts/build.js"
+  }
+}

@@ -1,0 +1,13 @@
+name: Scond-Workflow
+on: push
+jobs:
+  hello-job:
+    runs-on: ubantu-latest
+    steps:
+      - name: "welcome"
+        run: echo "welcome to the sagar era"
+Bye-job:
+  runs-on: ubantu-latest
+  steps:
+    - name: "Bye Bye"
+      run: echo "Bye Bye from sagar era"
